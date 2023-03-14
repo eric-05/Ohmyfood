@@ -5,8 +5,10 @@
 
 /* HEADER */
 
-
-
+.logo-entete
+[
+  width: 50%;
+]
 
 /* FOOTER */
 /* -- Barre de recherche --*/
@@ -16,11 +18,6 @@
   height: 50px;
   color: #353535;
   cursor: text;
-}
-
-.searchBar__icon
-{
-  margin-right: 1em;
 }
 
 .recherche-ville-texte
@@ -36,8 +33,8 @@
     padding: 1em 1.5em;
     border-radius: 30px;
     color: white;
+    text-align: center;
 }
-
 
 .bouton-choix
 { 
