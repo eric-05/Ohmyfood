@@ -1,0 +1,62 @@
+
+
+/* FONT */
+
+
+/* HEADER */
+
+
+
+
+/* FOOTER */
+/* -- Barre de recherche --*/
+.recherche-ville
+{
+  display: flex;
+  height: 50px;
+  color: #353535;
+  cursor: text;
+}
+
+.searchBar__icon
+{
+  margin-right: 1em;
+}
+
+.recherche-ville-texte
+{
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.bouton
+{ 
+    font-size: 1.1em;
+    background : linear-gradient(#9356DC, #FF79DA);
+    padding: 1em 1.5em;
+    border-radius: 30px;
+    color: white;
+}
+
+
+.bouton-choix
+{ 
+    font-size: 1.1em;
+    background :white;
+    padding: 1em 1.5em;
+    border-radius: 30px;
+}
+
+.bouton-choix:hover 
+{
+           box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+}
+
+/*  Sup à 768px */
+/* @media (max-width: 768px) */
+
+
+    /* FOOTER */
+
+    
+  
