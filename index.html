@@ -28,7 +28,8 @@
 <header>
     <div class="logo-entete">
         <img src="images/logo/ohmyfood.png" alt="logo-ohmyfood" class="logo-ohmyfood">
-                 
+   
+
 </header>
 
 
@@ -41,9 +42,13 @@
     <p class="recherche-ville-texte">Paris, Belleville</p>
 </div>
 
+<div class="conteneur-H1">
 <h1>Réservez le menu qui vous convient</h1>
-<h3>Découvrez des restaurants d'exception, sélectionnés par nos soins.</h3>
+</div>
 
+<div class="conteneur-H3">
+<h3>Découvrez des restaurants d'exception, sélectionnés par nos soins.</h3>
+</div>
 
     <div class="container">
         <div class="bouton">
@@ -71,49 +76,53 @@
         Dégustez au restaurant
     </div>
 
+
+
+
     <div class="les-restaurants"> 
-    <h1>Restaurants</h1>
+        <h2 class="restaurants-titre">Restaurants</h2>
     
     <article>
-        <div>
-            <img src="images/restaurants/jay-wennington.jpg" alt="Ménilmontant" class="images-restaurants">
+      <div>
+        <img class="restaurants-carte-image" src="images/restaurants/jay-wennington.jpg" alt="Ménilmontant">
+       
+        <div class="description-restaurants carte">
+            <h3 class="carte-titre">La palette du goût</h3>
+            <p class="carte-info">Ménilmontant</p>
+            <i class="fa-regular fa-heart"></i>
         </div>
-        <div class="texte-gauche">
-            <h2>La palettes du goût</h2>
-            <h3>Ménilmontant</h3>
+     </div>
+    </article>
+
+    <article>
+        <div>
+            <img class="restaurants-carte-image" src="images/restaurants/stil.jpg" alt="Charonne" class="images-restaurants">
+        </div>
+        <div class="description-restaurants carte">
+            <h3 class="carte-titre">La note enchantée</h3>
+            <p class="carte-info">Charonne</p>
             <i class="fa-regular fa-heart"></i>
         </div>
     </article>
 
     <article>
         <div>
-            <img src="images/restaurants/stil.jpg" alt="Charonne" class="images-restaurants">
+            <img class="restaurants-carte-image" src="images/restaurants/toa-heftiba.jpg" alt="Cité Rouge" class="images-restaurants">
         </div>
-        <div class="texte-gauche">
-            <h2>La note enchantée</h2>
-            <h3>Charonne</h3>
-            <i class="fa-regular fa-heart"></i>
-        </div>
-    </article>
-
-    <article>
-        <div>
-            <img src="images/restaurants/toa-heftiba.jpg" alt="Cité Rouge" class="images-restaurants">
-        </div>
-        <div class="texte-gauche">
-            <h2>A la française</h2>
-            <h3>Cité Rouge</h3>
-            <i class="fa-regular fa-heart"></i>
+        <div class="description-restaurants carte">
+              <h3 class="carte-titre">A la française</h3>
+              <p class="carte-info">Cité Rouge</p>
+              <i class="fa-regular fa-heart"></i>
         </div>
     </article>
 
     <article>
         <div>
-            <img src="images/restaurants/louis-hanse.jpg" alt="Folie-Méricourt" class="images-restaurants">
+            <img class="restaurants-carte-image" src="images/restaurants/louis-hanse.jpg" alt="Folie-Méricourt" class="images-restaurants">
         </div>
-        <div class="texte-gauche">
-            <h2>Le délice des sens</h2>
-            <h3>Folie-Méricourt</h3>
+        <div class="description-restaurants carte">
+            <h3 class="carte-titre">Le délice des sens</h3>
+            <p class="carte-info">Folie-Méricourt</p>
             <i class="fa-regular fa-heart"></i>
         </div>
     </article>
@@ -122,15 +131,20 @@
 
 <!--pied de page-->
 <footer>
-    <div class="a-propos">
-        <div class="texte-footer">A propos</div>
-        <nav class="foot">
+    
+        <nav class="footer">
+            <div class="footer-logo">
+            <img src="images/logo/ohmyfood-w.png" alt="logo-ohmyfood" class="logo-ohmyfood">
+            </div>
+
+            <div class="footer-links">
             <ul>
                 <li><i class="fa-solid fa-utensils"></i><a href="#">Proposer un restaurant</a></li>                
                 <li><i class="fa-solid fa-handshake-angle"></i><a href="#">Devenir partenaire</a></li>
                 <li><a href="#"></a>Mentions légales</li>
                 <li><a href="mailto:hello@openclassrooms.com">Contact</a></li>
             </ul>
+        </div>
         </nav>
     </div>
 </footer>

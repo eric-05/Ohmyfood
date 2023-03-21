@@ -4,26 +4,57 @@
 
 
 /* HEADER */
-
 .logo-entete
-[
-  width: 50%;
-]
+{
+  text-align: center;
+}
+.logo-entete img
+{
+  width: 230px;
+}
 
-/* FOOTER */
 /* -- Barre de recherche --*/
 .recherche-ville
 {
   display: flex;
   height: 50px;
-  color: #353535;
+  background: #EAEAEA;
   cursor: text;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.recherche-ville .fa-location-dot
+{
+margin-right: 15px;
 }
 
 .recherche-ville-texte
 {
   font-weight: 500;
   font-family: "Roboto", sans-serif;
+}
+
+h1
+{
+width: 80%;
+}
+
+.conteneur-H1
+{
+display: flex;
+justify-content: center;
+text-align: center;
+background: #F7F7F7;
+padding-bottom: 15px;
+}
+
+.conteneur-H3
+{
+padding-top: 10px;
+text-align: center;
+background: #F7F7F7;
 }
 
 .bouton
@@ -38,22 +69,110 @@
 
 .bouton-choix
 { 
-    font-size: 1.1em;
-    background :white;
-    padding: 1em 1.5em;
+    font-size: 1.0em;
+    background :#F5EDFF;
+    padding: 2em 2em;
     border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 22px;
 }
 
 .bouton-choix:hover 
 {
-           box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+ box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 }
+
+
+
+
+/*--Restaurants--*/
+
+.les-restaurants
+{
+  background: #f6f6f6;
+  padding: 55px 5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.restaurants-titre
+{
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.restaurants-carte
+{
+  position: relative;
+  display: block;
+  border-radius: 20px;
+  margin-bottom: 18px;
+}
+
+.restaurants-carte-image
+{
+  height: 175px;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.description-restaurants
+{
+  padding: 20px 14px;
+  position: relative;
+}
+.description-restaurants.carte .carte-titre
+{
+  font-size: 18px;
+  font-weight: bold;
+}
+.description-restaurants.carte .carte-info
+{
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+
+    /* FOOTER */
+.footer
+{
+  background: #000000fd;
+  padding: 15px;
+  color: white;
+  list-style-type:none; 
+}
+
+.footer-logo img
+{
+   width: 150px;
+   margin-left: 15px;
+ }  
+
+.footer-links
+{
+  display: flex;
+  flex-direction: column;
+  list-style-type:none; 
+   
+}
+
+.footer-links a
+{
+  color: white;
+  margin-top: 10px;
+  text-decoration:none;
+  
+}
+
+.footer-links a i
+{
+  width: 20px;
+}
+
 
 /*  Sup à 768px */
 /* @media (max-width: 768px) */
 
-
-    /* FOOTER */
 
     
   
