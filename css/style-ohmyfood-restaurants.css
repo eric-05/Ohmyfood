@@ -1,0 +1,21 @@
+.image-restaurant
+{
+    height: 70vw;
+    width: 100%;
+}
+
+.menu
+{
+    background-color: #f6f6f6;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 6px 6px;
+    margin-bottom: 10px
+}
+
+.menu-header
+{
+   display: flex;
+   align-items: center;
+   margin-bottom: 8px
+}
