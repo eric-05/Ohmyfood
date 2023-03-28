@@ -1,0 +1,144 @@
+/*--HEADER--*/
+
+/*--Barre de recherche--*/
+.recherche-ville
+{
+  display: flex;
+  height: 50px;
+  background: #EAEAEA;
+  cursor: text;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.recherche-ville .fa-location-dot
+{
+margin-right: 15px;
+}
+
+.recherche-ville-texte
+{
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+h1
+{
+width: 80%;
+}
+
+.conteneur-H1
+{
+display: flex;
+justify-content: center;
+text-align: center;
+background: #F7F7F7;
+padding-bottom: 15px;
+}
+
+.conteneur-H3
+{
+padding-top: 10px;
+text-align: center;
+background: #F7F7F7;
+}
+
+.bouton
+{ 
+    font-size: 1.1em;
+    background : linear-gradient(#9356DC, #FF79DA);
+    padding: 1em 1.5em;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+}
+
+.bouton-choix
+{ 
+    font-size: 1.0em;
+    background :#F5EDFF;
+    padding: 2em 2em;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+.bouton-choix:hover 
+{
+ box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/*--Restaurants--*/
+
+.les-restaurants
+{
+  background: #F7F7F7;
+  padding: 55px 5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.les-restaurants article
+{
+  background: #ffffff;
+  margin-bottom: 25px;
+  border-radius: 20px 20px 20px 20px;
+
+}
+.restaurants-titre
+{
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.restaurants-carte
+{
+  position: relative;
+  display: block;
+  border-radius: 20px;
+  margin-bottom: 18px;
+}
+
+.restaurants-carte-image
+{
+  height: 175px;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.description-restaurants
+{
+  padding: 20px 14px;
+  position: relative;
+}
+.description-restaurants-carte .carte-titre
+{
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 0px 0px 20px 20px;
+}
+.description-restaurants.carte .carte-info
+{
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+/* 
+.restaurant-texte
+
+display: flex
+aligne items */
+
+    /*--FOOTER--*/
+
+
+/*--Sup à 768px--*/
+
+
+/*--@media (min-width: 768px)--*/
+
+
+    
+  
