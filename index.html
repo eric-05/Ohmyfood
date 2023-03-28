@@ -6,15 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!--ajout font -->
-
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap"
+    rel="stylesheet"
+/>
 
 <!--lien fichier style css-->
-<link rel="stylesheet" href="style_Ohmyfood.css">
+<link rel="stylesheet" href="css/style-ohmyfood-main.css">
+<link rel="stylesheet" href="css/style-ohmyfood-home.css">
 
 <!--ajout Icones FontAwesome-->
 <script src="https://kit.fontawesome.com/77ca3878be.js" crossorigin="anonymous"></script>
 
-<title>Acceuil Omyfood</title>
+<title>Omyfood Acceuil</title>
 </head>
 
 
@@ -86,10 +91,12 @@
       <div>
         <img class="restaurants-carte-image" src="images/restaurants/jay-wennington.jpg" alt="Ménilmontant">
        
-        <div class="description-restaurants carte">
+        <div class="description-restaurants-carte" href="restaurants/la-palette-du-gout.html">
+            <div class="restaurant-texte">
             <h3 class="carte-titre">La palette du goût</h3>
             <p class="carte-info">Ménilmontant</p>
-            <i class="fa-regular fa-heart"></i>
+            </div>
+            <i class="fa-regular fa-heartfa-1x"></i>
         </div>
      </div>
     </article>
@@ -98,7 +105,7 @@
         <div>
             <img class="restaurants-carte-image" src="images/restaurants/stil.jpg" alt="Charonne" class="images-restaurants">
         </div>
-        <div class="description-restaurants carte">
+        <div class="description-restaurants-carte">
             <h3 class="carte-titre">La note enchantée</h3>
             <p class="carte-info">Charonne</p>
             <i class="fa-regular fa-heart"></i>
@@ -109,7 +116,7 @@
         <div>
             <img class="restaurants-carte-image" src="images/restaurants/toa-heftiba.jpg" alt="Cité Rouge" class="images-restaurants">
         </div>
-        <div class="description-restaurants carte">
+        <div class="description-restaurants-carte">
               <h3 class="carte-titre">A la française</h3>
               <p class="carte-info">Cité Rouge</p>
               <i class="fa-regular fa-heart"></i>
@@ -120,7 +127,7 @@
         <div>
             <img class="restaurants-carte-image" src="images/restaurants/louis-hanse.jpg" alt="Folie-Méricourt" class="images-restaurants">
         </div>
-        <div class="description-restaurants carte">
+        <div class="description-restaurants-carte">
             <h3 class="carte-titre">Le délice des sens</h3>
             <p class="carte-info">Folie-Méricourt</p>
             <i class="fa-regular fa-heart"></i>
