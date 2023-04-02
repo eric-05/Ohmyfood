@@ -9,7 +9,6 @@
   cursor: text;
   align-items: center;
   justify-content: center;
-
 }
 
 .recherche-ville .fa-location-dot
@@ -43,6 +42,7 @@ padding-top: 10px;
 text-align: center;
 background: #F7F7F7;
 }
+
 
 .bouton
 { 
@@ -84,8 +84,8 @@ background: #F7F7F7;
   background: #ffffff;
   margin-bottom: 25px;
   border-radius: 20px 20px 20px 20px;
-
 }
+
 .restaurants-titre
 {
   font-size: 1.5em;
@@ -113,6 +113,7 @@ background: #F7F7F7;
   padding: 20px 14px;
   position: relative;
 }
+
 .description-restaurants-carte .carte-titre
 {
   font-size: 18px;

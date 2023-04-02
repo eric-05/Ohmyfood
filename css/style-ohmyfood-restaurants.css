@@ -25,3 +25,16 @@
   height: 175px;
   width: 100%;
 }
+
+.bouton
+{ 
+    font-size: 1.1em;
+    background : linear-gradient(#9356DC, #FF79DA);
+    padding: 1em 1.5em;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/*--@media (min-width: 768px)--*/
