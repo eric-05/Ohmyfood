@@ -1,0 +1,57 @@
+/* .image-restaurant
+{
+    height: 70vw;
+    width: 100%;
+} */
+
+.menu
+{
+    background-color: #f6f6f6;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 6px 6px;
+    margin-bottom: 10px
+}
+
+.menu-header
+{
+   display: flex;
+   align-items: center;
+   margin-bottom: 8px
+}
+
+.restaurants-carte-image
+{
+  height: 175px;
+  width: 100%;
+}
+
+.carte-description-plat
+{
+    width: 66vw;
+    padding: 4vw 0 3vw 4vw;
+    overflow: hidden
+}
+
+.bouton
+{ 
+    font-size: 1.1em;
+    background : linear-gradient(#9356DC, #FF79DA);
+    padding: 1em 1.5em;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/*--@media (min-width: 768px)--*/
+
+
+
+
+
+/*--@media (min-width: 768px)--*/
+
+/*--@media (min-width: 768px)--*/
+
+/*--@media (min-width: 768px)--*/
