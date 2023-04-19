@@ -1,12 +1,12 @@
 /*--FONT--*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap");
-*,
 
 /*--HEADER--*/
-.logo-entete
+header .logo-entete
 {
   text-align: center;
 }
+
 .logo-entete img
 {
   width: 230px;
@@ -24,7 +24,10 @@
 {
    width: 150px;
    margin-left: 15px;
- }  
+}
+
+
+
 
 .footer-links
 {
@@ -37,6 +40,7 @@
   color: white;
   margin-top: 10px;
   text-decoration:none;
+  
 }
 
 .footer-links ul
@@ -47,4 +51,16 @@
 .footer-links a i
 {
   width: 20px;
+  margin-right: 5px
+}
+
+.footer-links .fa-utensils
+{
+margin-right: 8px;
+}
+
+
+.footer-links .fa-handshake-angle
+{
+margin-right: 8px;
 }

@@ -60,8 +60,8 @@ font-size: 1.0em;
 background :#F5EDFF;
 padding: 2em 2em;
 border-radius: 30px;
-margin-top: 10px;
-margin-bottom: 22px;
+margin-top: 12px;
+margin-bottom: 12px;
 }
 
 .bouton-choix:hover 
@@ -69,6 +69,20 @@ margin-bottom: 22px;
 box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 }
 
+.classement-fonctionnement
+{
+  position: relative;
+  top: -6vw;
+  left: -10vw;
+  width: 6vw;
+  height: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #9356dc;
+  color: #fff
+}
 
 /*--Restaurants--*/
 
@@ -86,11 +100,34 @@ margin-bottom: 25px;
 border-radius: 20px 20px 20px 20px;
 }
 
+.coeur
+{
+margin-right: 15px;
+text-decoration:#9356DC;
+/* 
+#FF79DA
+ */
+
+
+}
+
+
 .restaurants-titre
 {
 font-size: 1.5em;
 font-weight: 800;
 margin-bottom: 25px;
+}
+
+.inscrustation-nouveau
+{
+  background: #99e2d0;
+  padding: 2vw 3vw;
+  position: relative;
+  top: -61vw;
+  left: 61vw;
+  font-weight: 500;
+  color: #278870
 }
 
 .restaurants-carte
