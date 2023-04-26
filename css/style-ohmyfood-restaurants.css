@@ -10,6 +10,19 @@ h1,h2,h3
     font-weight: normal;
 }
 
+.insertion-fleche
+{
+  background: #ffffff;
+  padding: 1vw 2vw;
+  position: relative;
+  top: -61vw;
+  left: 61vw;
+  /* font-weight: 500;
+  color: #278870 */
+}
+
+
+
 .menu
 {
     background-color: #F6F6F6;
