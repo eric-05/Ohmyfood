@@ -1,0 +1,227 @@
+#triangle-code{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-right : 87px solid transparent;
+ border-bottom : 150px solid red;
+ border-left : 87px solid transparent;
+ background-color: transparent;
+ outline: 2px dashed;
+
+transition: transform 4000ms;
+transform: rotate(30deg);
+
+}
+
+
+
+
+#triangle-code{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-top : 150px solid blue;
+ border-left : 150px solid transparent;
+}
+
+#triangle-code{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-top : 87px solid transparent;
+ border-bottom : 87px solid transparent;
+ border-left : 150px solid red;
+}
+
+#triangle-code{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-bottom : 150px solid blue;
+ border-left : 150px solid transparent;
+}
+
+#triangle-code{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-top : 150px solid red;
+ border-right : 87px solid transparent;
+ border-left : 87px solid transparent;
+}
+
+#triangle-code{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-right : 150px solid transparent;
+ border-bottom : 150px solid blue;
+}
+
+#triangle-code{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-top : 87px solid transparent;
+ border-right : 150px solid red;
+ border-bottom : 87px solid transparent;
+}
+
+#triangle-code{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-top : 150px solid blue;
+ border-right : 150px solid transparent;
+}
+
+
+.center
+{
+  margin : 150px auto 0;
+}
+.triangle
+{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-right : 87px solid transparent;
+ border-bottom : 150px solid red;
+ border-left : 87px solid transparent;
+/*  background-color: transparent;
+ outline: 2px dashed; */
+
+transition: transform 4000ms;
+transform: rotate(1800deg);
+
+}
+
+
+
+
+
+
+<div class="circle">
+  <div class="triangle"></div>
+</div>
+
+
+
+
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 87px solid #ff0000; 
+  animation: rotate 2s linear infinite; 
+  position: absolute;
+  bottom: 0; 
+  left: 50%;
+  transform-origin: bottom center;
+  margin-left: -50px;
+}
+
+.triangle::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: calc(50% - 5px);
+  width: 10px;
+  height: 10px;
+}
+
+
+
+@keyframes rotate
+{
+  0%
+  {
+    transform: rotate(0deg);
+  } 
+  
+  8.33%
+  {
+    transform: rotate(30deg);
+    border-bottom-color: #de211f;
+  }
+  
+  16.7%
+  {
+    transform: rotate(60deg);
+    border-bottom-color: #de8c1f;
+  }
+  
+  25%
+  {
+    transform: rotate(90deg);
+    border-bottom-color: #c4de1f;
+  }
+  
+  33.3%
+  {
+    transform: rotate(120deg);
+    border-bottom-color: #c4de1f;
+  }
+  
+  41.7%
+  {
+    transform: rotate(150deg);
+    border-bottom-color: #1fde50;
+  }
+  
+  50%
+  {
+    transform: rotate(180deg);
+    border-bottom-color: #1fb4de; 
+  }
+  
+  58.3%
+  {
+    transform: rotate(210deg);
+    border-bottom-color: #1f39de;
+  }
+  
+  66.7%
+  {
+    transform: rotate(240deg);
+    border-bottom-color: #691fde;
+  }
+  
+  75%
+  {
+    transform: rotate(270deg);
+    border-bottom-color: #a21fde;
+  }
+  
+  83.3%
+  {
+    transform: rotate(300deg);
+    border-bottom-color: #de1fbe;
+  }
+  
+  91.7%
+  {
+    transform: rotate(330deg);
+    border-bottom-color: #de1f79;
+  }
+  
+  100%
+  {
+    transform: rotate(360deg);
+    border-bottom-color: #de1f4b;
+  }
+}
+

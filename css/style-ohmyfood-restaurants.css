@@ -6,7 +6,7 @@
 
 h1,h2,h3
 {
-    font-size: 100%;
+    default-iconfont-size: 100%;
     font-weight: normal;
 }
 
@@ -24,6 +24,11 @@ h1,h2,h3
    display: flex;
    align-items: center;
    margin-bottom: 8px;
+}
+
+.carte-contenu
+{
+margin-left: 90px;
 }
 
 .container
@@ -65,7 +70,12 @@ align-items: center;
     color: white;
     text-align: center;
     margin: 15px;
+}
 
+.titre .restaurant-nom
+{
+    font-size: 1.5em;
+    font-weight: 750;
 }
 
 .soulignement-plat
@@ -75,17 +85,16 @@ width: 50px;
 background: #99E2D0;
 }
 
-
-
 .titre
 {
-    font-size: 2.0em;
-    font-weight: 800;
+    font-size: 1.5em;
+    font-weight: 100;
+   
 }
 
 .titre h2
 {
-    font-weight: 800
+    font-weight: 100;
 }
 
 .plats

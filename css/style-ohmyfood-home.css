@@ -1,5 +1,138 @@
 /*--HEADER--*/
 
+.circle
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.triangle
+{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 87px solid #ff0000; 
+  animation: rotate 2s linear infinite; 
+  position: absolute;
+  bottom: 0; 
+  left: 50%;
+  transform-origin: bottom center;
+  margin-left: -50px;
+
+  animation: spin 3s linear;
+  animation-fill-mode: forwards;
+
+}
+
+.triangle::before
+{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: calc(50% - 5px);
+  width: 10px;
+  height: 10px;
+}
+
+
+
+@keyframes rotate
+{
+  0%
+  {
+    transform: rotate(0deg);
+  } 
+  
+  8.33%
+  {
+    transform: rotate(30deg);
+    border-bottom-color: #de211f;
+  }
+  
+  16.7%
+  {
+    transform: rotate(60deg);
+    border-bottom-color: #de8c1f;
+  }
+  
+  25%
+  {
+    transform: rotate(90deg);
+    border-bottom-color: #c4de1f;
+  }
+  
+  33.3%
+  {
+    transform: rotate(120deg);
+    border-bottom-color: #c4de1f;
+  }
+  
+  41.7%
+  {
+    transform: rotate(150deg);
+    border-bottom-color: #1fde50;
+  }
+  
+  50%
+  {
+    transform: rotate(180deg);
+    border-bottom-color: #1fb4de; 
+  }
+  
+  58.3%
+  {
+    transform: rotate(210deg);
+    border-bottom-color: #1f39de;
+  }
+  
+  66.7%
+  {
+    transform: rotate(240deg);
+    border-bottom-color: #691fde;
+  }
+  
+  75%
+  {
+    transform: rotate(270deg);
+    border-bottom-color: #a21fde;
+  }
+  
+  83.3%
+  {
+    transform: rotate(300deg);
+    border-bottom-color: #de1fbe;
+  }
+  
+  91.7%
+  {
+    transform: rotate(330deg);
+    border-bottom-color: #de1f79;
+  }
+  
+  99.999%
+  {
+    transform: rotate(360deg);
+    border-bottom-color: #de1f4b;
+    opacity: 1;
+  }
+  
+  100% 
+  { 
+    opacity: 0;
+  }
+}
+
+
+
+
+
 /*--Barre de recherche--*/
 .recherche-ville
 {
@@ -40,7 +173,7 @@ padding-bottom: 15px;
 {
 padding-top: 10px;
 text-align: center;
-background: #F7F7F7;
+background: #f7f7f7;
 }
 
 
@@ -54,22 +187,40 @@ color: white;
 text-align: center;
 }
 
+.bouton:hover 
+{
+border:#F7F7F7 2px solid;
+}
+
+
 .fonctionnemnt
 {
 width: 90%;
 align-content:space-around;
 }
 
+.alignement
+{
+  position: relative;
+  top: 21px;
+  left: 40px;
+}
+
+.alignement .fa-solid
+{
+ color:#9356DC;
+}
 
 
 .bouton-choix
 { 
 font-size: 1.0em;
 background :#F5EDFF;
-padding: 2em 2em;
+/* padding: 2em 2em; */
 border-radius: 30px;
 margin-top: 12px;
 margin-bottom: 12px;
+height: 70px;
 }
 
 .bouton-choix:hover 
@@ -80,8 +231,8 @@ box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 .classement-fonctionnement
 {
   position: relative;
-  top: -6vw;
-  left: -10vw;
+  top: 0vw;
+  left: -2vw;
   width: 6vw;
   height: 6vw;
   display: flex;
@@ -130,7 +281,8 @@ margin-bottom: 25px;
 .inscrustation-nouveau
 {
   background: #99e2d0;
-  padding: 2vw 3vw;
+  padding: 1vw 2vw;
+  border-radius: 5px 5px 5px 5px;
   position: relative;
   top: -61vw;
   left: 61vw;

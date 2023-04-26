@@ -12,6 +12,29 @@ header .logo-entete
   width: 230px;
 }
 
+
+/* 
+.center
+{
+  margin : 150px auto 0;
+}
+.triangle
+{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-right : 87px solid transparent;
+ border-bottom : 150px solid red;
+ border-left : 87px solid transparent;
+
+
+transition: transform 4000ms;
+transform: rotate(1800deg);
+
+}
+ */
+
+
    /*--FOOTER--*/
 .footer
 {
@@ -59,3 +82,4 @@ margin-right: 15px;
 {
 margin-right: 8px;
 }
+
