@@ -20,14 +20,14 @@
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 87px solid #ff0000; 
-  animation: rotate 2s linear infinite; 
+  animation: rotate 2s linear /* infinite;  */;
   position: absolute;
   bottom: 0; 
   left: 50%;
   transform-origin: bottom center;
   margin-left: -50px;
 
-  /* animation: spin 3s linear; */
+ 
   animation-fill-mode: forwards;
   
   /* transition-duration: 1s;
@@ -48,8 +48,6 @@
   transition-delay: 3s;
 
 }
-
-
 
 @keyframes rotate
 {
@@ -136,9 +134,6 @@
     opacity: 0;
   }
 }
-
-
-
 
 
 /*--Barre de recherche--*/
@@ -270,21 +265,18 @@ border-radius: 20px 20px 20px 20px;
 .coeur
 {
 margin-right: 15px;
+content: url("../images/coeur-t.png");
+/* 
 text-decoration:#9356DC;
-position: relative;
-  top: -2vw;
-  left: -5vw;
+*/
 
 }
-/* 
+ 
 .coeur:hover 
 {
-  color: #FF79DA
-  position: relative;
-  top: -61vw;
-  left: 61vw;
+  content: url("../images/coeur.png");
   
-} */
+} 
 
 
 .restaurants-titre
