@@ -147,6 +147,42 @@ background: #99E2D0;
     white-space: nowrap;
 }
 
+.plats-carte:hover .plats-tarif
+{
+    width: 17vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transform: translateX(0)
+}
+
+.plats-tarif
+{
+    width: 17vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: 900;
+    padding: 4vw 4vw;
+    transform: translateX(4vw);
+}
+
+.plats-carte:hover .plats-valide
+{
+    width: 17vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    transform: translateX(0)
+}
+
+.plats-carte:hover .plats-valide .icon
+{
+   transform: rotate(360deg)
+}
+
 .plats-description-carte
 {
     width: 66vw;
@@ -173,16 +209,6 @@ background: #99E2D0;
     text-overflow: ellipsis;
 }
 
-.plats-tarif
-{
-    width: 17vw;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    font-weight: 900;
-    padding: 4vw 4vw;
-    transform: translateX(4vw);
-}
 
 .plats-valide
 {
@@ -196,9 +222,9 @@ background: #99E2D0;
     transition: all linear 500ms;
 }
 
-.plats-valide .icone
-{
+.plats-valide .icon {
     color: #fff;
     transform: rotate(0deg);
-    transition: all linear 500ms 300ms;
+    transition: all linear 500ms 300ms
 }
+

@@ -1,5 +1,5 @@
 /*--HEADER--*/
-
+/* 
 .circle
 {
   width: 200px;
@@ -20,7 +20,7 @@
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 87px solid #ff0000; 
-  animation: rotate 2s linear /* infinite;  */;
+  animation: rotate 2s linear;
   position: absolute;
   bottom: 0; 
   left: 50%;
@@ -29,9 +29,7 @@
 
  
   animation-fill-mode: forwards;
-  
-  /* transition-duration: 1s;
-  transition-delay: 3s; */
+
 
 }
 
@@ -51,90 +49,62 @@
 
 @keyframes rotate
 {
-  0%
-  {
+  0%  {
     transform: rotate(0deg);
   } 
-  
-  8.33%
-  {
+    8.33%  {
     transform: rotate(30deg);
     border-bottom-color: #de211f;
   }
-  
-  16.7%
-  {
+    16.7%  {
     transform: rotate(60deg);
     border-bottom-color: #de8c1f;
   }
-  
-  25%
-  {
+    25%  {
     transform: rotate(90deg);
     border-bottom-color: #c4de1f;
   }
-  
-  33.3%
-  {
+    33.3%  {
     transform: rotate(120deg);
     border-bottom-color: #c4de1f;
   }
-  
-  41.7%
-  {
+    41.7%  {
     transform: rotate(150deg);
     border-bottom-color: #1fde50;
   }
-  
-  50%
-  {
+    50%  {
     transform: rotate(180deg);
     border-bottom-color: #1fb4de; 
   }
-  
-  58.3%
-  {
+    58.3%  {
     transform: rotate(210deg);
     border-bottom-color: #1f39de;
   }
-  
-  66.7%
-  {
+    66.7%  {
     transform: rotate(240deg);
     border-bottom-color: #691fde;
   }
-  
-  75%
-  {
+    75%  {
     transform: rotate(270deg);
     border-bottom-color: #a21fde;
   }
-  
-  83.3%
-  {
+    83.3%  {
     transform: rotate(300deg);
     border-bottom-color: #de1fbe;
   }
-  
-  91.7%
-  {
+    91.7%  {
     transform: rotate(330deg);
     border-bottom-color: #de1f79;
   }
-  
-  99.999%
-  {
+    99.999%  {
     transform: rotate(360deg);
     border-bottom-color: #de1f4b;
     opacity: 1;
   }
-  
-  100% 
-  { 
+    100%   { 
     opacity: 0;
   }
-}
-
+} */
 
 /*--Barre de recherche--*/
 .recherche-ville
@@ -179,7 +149,6 @@ text-align: center;
 background: #f7f7f7;
 }
 
-
 .bouton
 { 
 font-size: 1.1em;
@@ -195,11 +164,15 @@ text-align: center;
 border:#F7F7F7 2px solid;
 }
 
+.titre-fonctionnemnt{
+  padding-left: 15px;
+}
 
 .fonctionnemnt
 {
 width: 90%;
 align-content:space-around;
+padding-left: 20px;
 }
 
 .alignement
@@ -239,6 +212,7 @@ box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
   width: 6vw;
   height: 6vw;
   display: flex;
+  /* flex-direction:row; */
   justify-content: center;
   align-items: center;
   border-radius: 50%;
@@ -251,7 +225,7 @@ box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 .les-restaurants
 {
 background: #F7F7F7;
-padding: 55px 5%;
+padding: 1px 5%;
 font-family: "Roboto", sans-serif;
 }
 
@@ -292,7 +266,7 @@ margin-bottom: 25px;
   padding: 1vw 2vw;
   border-radius: 5px 5px 5px 5px;
   position: relative;
-  top: -61vw;
+  top: -40vw;
   left: 61vw;
   font-weight: 500;
   color: #278870
@@ -349,10 +323,66 @@ aligne items */
 
 
 /*--Sup à 768px--*/
+ 
+
+@media (min-width: 768px) {
+.fonctionnemnt
+{
+  display: flex;
+  flex-direction:row; justify-content: space-between;
+  padding-left: 20px;
+} 
+
+.bouton-choix
+{ 
+font-size: 1.0em;
+width: 17.5em;
+margin-top: 12px;
+margin-bottom: 12px;
+height: 68px;
+}
+.classement-fonctionnement
+{
+  position: relative;
+  top: 0vw;
+  left: -1vw;
+  width: 2vw;
+  height: 2vw;
+  }
+  alignement
+  {
+    position: relative;
+    top: 30px;
+    left: 54px;
+  }
+  .les-restaurants
+  {
+    padding: 55px 5%;
+  }
+  
+  .les-restaurants-images-1
+  {
+   display: flex;
+   flex-direction:row; justify-content: space-around;
+  }
+  
+  .les-restaurants-images-2
+  {
+   display: flex;
+   flex-direction:row; flex-wrap:wrap; justify-content: space-around;
+  }
+  .inscrustation-nouveau
+  {
+    position: relative;
+    top: -14vw;
+    left: 15vw;
+    padding: 0.6vw 0.6vw;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: 500;
+  }
+  
 
 
-/*--@media (min-width: 768px)--*/
+} 
 
-
-    
   
