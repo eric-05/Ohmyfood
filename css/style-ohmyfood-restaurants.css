@@ -1,12 +1,6 @@
-/* .image-restaurant
-{
-    height: 70vw;
-    width: 100%;
-} */
-
 h1,h2,h3
 {
-    default-iconfont-size: 100%;
+    /* default-iconfont-size: 100%; */
     font-weight: normal;
 }
 
@@ -17,11 +11,7 @@ h1,h2,h3
   position: relative;
   top: -11vw;
   left: 1vw;
-  /* font-weight: 500;
-  color: #278870 */
-}
-
-
+  }
 
 .menu
 {
@@ -46,12 +36,10 @@ margin-left: 90px;
 
 .container
 {
-
 background-color: #F7F7F7;
 border-top-left-radius: 25px;
 border-top-right-radius: 25px;
 }
-
 
 .restaurants-carte-image
 {
@@ -63,16 +51,7 @@ border-top-right-radius: 25px;
 {
 display: flex;
 align-items: center;
-
 }
-
-
-/* .carte-description-plat
-{
-    width: 66vw;
-    padding: 4vw 0 3vw 4vw;
-    overflow: hidden
-} */
 
 .bouton
 { 
@@ -102,7 +81,6 @@ background: #99E2D0;
 {
     font-size: 1.5em;
     font-weight: 100;
-   
 }
 
 .titre h2
@@ -196,7 +174,6 @@ background: #99E2D0;
     font-size: 1.1rem;
     margin-bottom: 2vw;
     overflow: hidden;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
 }
 
@@ -205,10 +182,8 @@ background: #99E2D0;
     font-weight: 200;
     font-size: 1rem;
     overflow: hidden;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
 }
-
 
 .plats-valide
 {
