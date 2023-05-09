@@ -1,37 +1,38 @@
-/*--HEADER--*/
-/* 
-.circle
-{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-left: 75px;
-}
-
+/*--LOADER--*/ 
 .triangle
 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 87px solid #ff0000; 
-  animation: rotate 2s linear;
+  border-bottom: 86.6px solid #ff0000; 
+  animation: rotate 3s linear;
   position: absolute;
   bottom: 0; 
   left: 50%;
+  top: 50%;
   transform-origin: bottom center;
+  transform: translate(-50%, -50%);
   margin-left: -50px;
-
- 
   animation-fill-mode: forwards;
+} 
 
-
+/* 
+.triangle
+{
+      width: 0;
+      height: 0;
+border-style: solid;
+border-width: 0 50px 86.6px 50px;
+border-color: transparent transparent #007bff transparent;
+      position: absolute;
+      left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+animation: rotate 2s linear infini avatar;
+transform: translate(-50%, -50%) rotate(360deg);
 }
+*/
 
 .triangle::before
 {
@@ -41,10 +42,8 @@
   left: calc(50% - 5px);
   width: 10px;
   height: 10px;
-
-  transition-duration: 1s;
+  transition-duration: 3s;
   transition-delay: 3s;
-
 }
 
 @keyframes rotate
@@ -104,7 +103,8 @@
     100%   { 
     opacity: 0;
   }
-} */
+} 
+/*--HEADER--*/
 
 /*--Barre de recherche--*/
 .recherche-ville

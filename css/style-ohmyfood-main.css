@@ -67,10 +67,10 @@ margin-right: 8px;
 
 @media (min-width: 768px) {
 
-  .footer-links
+  .footer-links ul
   {
     display: flex;
-    flex-direction: row;   
+    flex-direction: row; justify-content: space-around;  
   }
 
 }
